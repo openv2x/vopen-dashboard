@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="FLIPPABLE_VIEW_ID" type="id"/>
+    <item name="VIEW_ID" type="id"/>
+    <item name="WIDGET_FACTORY_INSTANCE" type="id"/>
+    <item name="PLACEHOLDER_LAYOUT_PARAMS" type="id"/>
+</resources>

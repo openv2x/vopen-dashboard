@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="DoubleViewPager-1.0.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/45fc470ebbc808980be73779474e902a1496b6cb/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/45fc470ebbc808980be73779474e902a1496b6cb/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/45fc470ebbc808980be73779474e902a1496b6cb/output/jars/libs/android-support-v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.juliome10/DoubleViewPager/1.0.1/9b99b09b4a1254b68322ff25d478669a840a7493/DoubleViewPager-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

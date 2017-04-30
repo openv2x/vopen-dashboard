@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.vopen.dashboard.FlippableView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/backview_layout"
+        android:id="@+id/backview"/>
+
+    <!-- placeholder -->
+    <Button
+        android:id="@+id/frontview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.Button"/>
+
+</org.vopen.dashboard.FlippableView>

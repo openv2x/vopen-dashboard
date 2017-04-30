@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.apmem.tools.layouts.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:f="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="fill"
+    android:background="@drawable/placeholder_btn"
+
+   >
+
+    <org.vopen.dashboard.SquareButton
+        android:layout_height="fill_parent"
+        android:layout_width="0dip"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/removeButton"
+            android:src="@drawable/remove"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+    </org.vopen.dashboard.SquareButton>
+    <org.vopen.dashboard.SquareButton
+        android:layout_height="fill_parent"
+        android:layout_width="0dip"
+        android:layout_weight="1">
+
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/configureButton"
+            android:src="@drawable/configure"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+
+            />
+
+    </org.vopen.dashboard.SquareButton>
+
+    <org.vopen.dashboard.SquareButton
+        android:layout_height="fill_parent"
+        android:layout_width="0dip"
+        android:layout_weight="1">
+
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/replaceButton"
+            android:src="@drawable/replace"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+    </org.vopen.dashboard.SquareButton>
+    <org.vopen.dashboard.SquareButton
+        android:layout_height="fill_parent"
+        android:layout_width="0dip"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/flipButton"
+            android:src="@drawable/flip"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+    </org.vopen.dashboard.SquareButton>
+
+</org.apmem.tools.layouts.FlowLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:padding="0px">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<ToggleButton-->
+                <!--android:text="ToggleButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/toggleButton"-->
+                <!--android:layout_weight="1"/>-->
+
+            <ToggleButton
+                android:textOff="OBD disabled"
+                android:textOn="OBD enabled"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/obdButton"
+                android:padding="0px"
+                android:onClick="onObdButtonClicked"
+                />
+
+            <Button
+                android:text="Settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setButton"
+                android:onClick="onSettingsButtonClicked" />
+
+
+
+            <!--<Button-->
+                <!--android:text="OBD"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/obdButton"-->
+                <!--android:onClick="onObdButtonClicked" />-->
+
+            <TextView
+                android:id="@+id/obdStatus"
+
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <Switch
+            android:layout_width="105dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right"
+            android:id="@+id/editSwitch"
+            android:track="@drawable/switch_track_selector"
+            android:switchMinWidth="75dp"
+            android:padding="0px"
+            android:textOff="O"
+            android:textOn="I"
+            android:thumb="@drawable/switch_thumb_selector" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".MainActivity"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:padding="0px"
+        android:id="@+id/frameLayout"
+        >
+
+
+        <!--<org.vopen.gui.layouts.EditableStaticGridLayout-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:padding="0px"-->
+            <!--android:id="@+id/gridLayout"></org.vopen.gui.layouts.EditableStaticGridLayout>-->
+
+
+
+        <com.emoiluj.doubleviewpager.DoubleViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0px"
+            />
+
+        <org.vopen.dashboard.Resizer
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0px"
+            android:id="@+id/resizer"/>
+
+        <org.vopen.dashboard.PageIndicator
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="0px"
+            android:alpha="0.0"
+            android:id="@+id/pageIndicator"/>
+
+    </FrameLayout>
+
+</LinearLayout>

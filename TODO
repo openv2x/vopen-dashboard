@@ -1,0 +1,22 @@
+TODO urgent
+
+- Back view layout to don't stretch
+
+
+TODO later
+
+- 2D Pager custom view
+- Long click to add placeholder also in edit mode
+- Center both GridLayout and resizer views
+- Resize background drawable for different resolutions
+- Layout templates
+- Generalize widget to graphic object
+- Add prebuilt "internal widgets" as graphic objects
+- Add icon launchers as graphic objects (with non resizable size)
+
+
+------------
+
+External acknowledgements
+
+1. Flow Layout (only if we can make it working)
